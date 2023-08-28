@@ -1,0 +1,9 @@
+[0.073s] Invoking command in '/home/marceli/tb3_ws/src/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/marceli/tb3_ws/src/build/turtlebot3_gazebo -- -j4 -l4
+[0.130s] [31mCMake Error at CMakeLists.txt:79:
+[0.130s]   Parse error.  Function missing ending ")".  End of file reached.
+[0.130s] 
+[0.130s] [0m
+[0.131s] -- Configuring incomplete, errors occurred!
+[0.131s] See also "/home/marceli/tb3_ws/src/build/turtlebot3_gazebo/CMakeFiles/CMakeOutput.log".
+[0.134s] gmake: *** [Makefile:390: cmake_check_build_system] Error 1
+[0.137s] Invoked command in '/home/marceli/tb3_ws/src/build/turtlebot3_gazebo' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/marceli/tb3_ws/src/build/turtlebot3_gazebo -- -j4 -l4

@@ -1,0 +1,6 @@
+Invoking command in '/home/marceli/tb3_ws/src/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/marceli/tb3_ws/src/utils/DynamixelSDK/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/marceli/tb3_ws/src/install/dynamixel_sdk
+Invoked command in '/home/marceli/tb3_ws/src/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/marceli/tb3_ws/src/utils/DynamixelSDK/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/marceli/tb3_ws/src/install/dynamixel_sdk
+Invoking command in '/home/marceli/tb3_ws/src/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/marceli/tb3_ws/src/build/dynamixel_sdk -- -j4 -l4
+Invoked command in '/home/marceli/tb3_ws/src/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/marceli/tb3_ws/src/build/dynamixel_sdk -- -j4 -l4
+Invoking command in '/home/marceli/tb3_ws/src/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/marceli/tb3_ws/src/build/dynamixel_sdk
+Invoked command in '/home/marceli/tb3_ws/src/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/marceli/tb3_ws/src/build/dynamixel_sdk

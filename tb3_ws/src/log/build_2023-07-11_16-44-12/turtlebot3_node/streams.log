@@ -1,0 +1,84 @@
+[0.122s] Invoking command in '/home/marceli/tb3_ws/src/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/marceli/tb3_ws/src/install/turtlebot3_msgs:/home/marceli/tb3_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marceli/tb3_ws/src/install/turtlebot3_msgs:/home/marceli/tb3_ws/src/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/marceli/tb3_ws/src/install/turtlebot3_msgs/lib:/home/marceli/tb3_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marceli/tb3_ws/src/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/marceli/tb3_ws/src/turtlebot3/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/marceli/tb3_ws/src/install/turtlebot3_node
+[0.509s] -- The C compiler identification is GNU 11.3.0
+[0.692s] -- The CXX compiler identification is GNU 11.3.0
+[0.714s] -- Detecting C compiler ABI info
+[0.993s] -- Detecting C compiler ABI info - done
+[1.004s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.009s] -- Detecting C compile features
+[1.010s] -- Detecting C compile features - done
+[1.015s] -- Detecting CXX compiler ABI info
+[1.373s] -- Detecting CXX compiler ABI info - done
+[1.381s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.390s] -- Detecting CXX compile features
+[1.391s] -- Detecting CXX compile features - done
+[1.396s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.979s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.183s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.292s] -- Found dynamixel_sdk: 3.7.60 (/home/marceli/tb3_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[2.296s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.461s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.469s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.509s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.543s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.622s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.051s] -- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)
+[3.307s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.333s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[3.491s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.532s] -- Looking for pthread.h
+[3.872s] -- Looking for pthread.h - found
+[3.872s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.206s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.208s] -- Found Threads: TRUE  
+[4.666s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[4.900s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.101s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[5.184s] -- Found tf2: 0.25.2 (/opt/ros/humble/share/tf2/cmake)
+[5.260s] -- Found tf2_ros: 0.25.2 (/opt/ros/humble/share/tf2_ros/cmake)
+[7.150s] -- Found turtlebot3_msgs: 2.2.3 (/home/marceli/tb3_ws/src/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[8.025s] -- Configuring done
+[8.163s] -- Generating done
+[8.173s] -- Build files have been written to: /home/marceli/tb3_ws/src/build/turtlebot3_node
+[8.234s] Invoked command in '/home/marceli/tb3_ws/src/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/marceli/tb3_ws/src/install/turtlebot3_msgs:/home/marceli/tb3_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marceli/tb3_ws/src/install/turtlebot3_msgs:/home/marceli/tb3_ws/src/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/marceli/tb3_ws/src/install/turtlebot3_msgs/lib:/home/marceli/tb3_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marceli/tb3_ws/src/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/marceli/tb3_ws/src/turtlebot3/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/marceli/tb3_ws/src/install/turtlebot3_node
+[8.240s] Invoking command in '/home/marceli/tb3_ws/src/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/marceli/tb3_ws/src/install/turtlebot3_msgs:/home/marceli/tb3_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marceli/tb3_ws/src/install/turtlebot3_msgs:/home/marceli/tb3_ws/src/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/marceli/tb3_ws/src/install/turtlebot3_msgs/lib:/home/marceli/tb3_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marceli/tb3_ws/src/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/marceli/tb3_ws/src/build/turtlebot3_node -- -j4 -l4
+[8.521s] [  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[19.720s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[24.847s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[25.670s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[47.941s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[49.954s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[50.976s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[51.991s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[57.702s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[57.782s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[60.161s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[70.388s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[72.063s] [ 85%] Built target turtlebot3_node_lib
+[72.117s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[82.995s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[89.458s] [100%] Built target turtlebot3_ros
+[89.507s] Invoked command in '/home/marceli/tb3_ws/src/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/marceli/tb3_ws/src/install/turtlebot3_msgs:/home/marceli/tb3_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marceli/tb3_ws/src/install/turtlebot3_msgs:/home/marceli/tb3_ws/src/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/marceli/tb3_ws/src/install/turtlebot3_msgs/lib:/home/marceli/tb3_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marceli/tb3_ws/src/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/marceli/tb3_ws/src/build/turtlebot3_node -- -j4 -l4
+[89.752s] Invoking command in '/home/marceli/tb3_ws/src/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/marceli/tb3_ws/src/install/turtlebot3_msgs:/home/marceli/tb3_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marceli/tb3_ws/src/install/turtlebot3_msgs:/home/marceli/tb3_ws/src/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/marceli/tb3_ws/src/install/turtlebot3_msgs/lib:/home/marceli/tb3_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marceli/tb3_ws/src/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/marceli/tb3_ws/src/build/turtlebot3_node
+[89.783s] -- Install configuration: ""
+[89.785s] -- Execute custom install script
+[89.788s] -- Symlinking: /home/marceli/tb3_ws/src/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[89.826s] -- Symlinking: /home/marceli/tb3_ws/src/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[89.854s] -- Symlinking: /home/marceli/tb3_ws/src/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[89.891s] -- Symlinking: /home/marceli/tb3_ws/src/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[89.934s] -- Symlinking: /home/marceli/tb3_ws/src/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[89.967s] -- Symlinking: /home/marceli/tb3_ws/src/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[89.999s] -- Symlinking: /home/marceli/tb3_ws/src/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[90.036s] -- Symlinking: /home/marceli/tb3_ws/src/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[90.065s] -- Symlinking: /home/marceli/tb3_ws/src/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[90.094s] -- Symlinking: /home/marceli/tb3_ws/src/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[90.124s] -- Symlinking: /home/marceli/tb3_ws/src/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[90.153s] -- Symlinking: /home/marceli/tb3_ws/src/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[90.199s] -- Symlinking: /home/marceli/tb3_ws/src/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[90.242s] -- Symlinking: /home/marceli/tb3_ws/src/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[90.272s] -- Symlinking: /home/marceli/tb3_ws/src/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[90.306s] -- Symlinking: /home/marceli/tb3_ws/src/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[90.356s] -- Symlinking: /home/marceli/tb3_ws/src/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[90.412s] -- Symlinking: /home/marceli/tb3_ws/src/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[90.445s] -- Symlinking: /home/marceli/tb3_ws/src/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[90.483s] -- Symlinking: /home/marceli/tb3_ws/src/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[90.535s] Invoked command in '/home/marceli/tb3_ws/src/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/marceli/tb3_ws/src/install/turtlebot3_msgs:/home/marceli/tb3_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marceli/tb3_ws/src/install/turtlebot3_msgs:/home/marceli/tb3_ws/src/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/marceli/tb3_ws/src/install/turtlebot3_msgs/lib:/home/marceli/tb3_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marceli/tb3_ws/src/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/marceli/tb3_ws/src/build/turtlebot3_node

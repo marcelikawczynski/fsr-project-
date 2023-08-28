@@ -1,0 +1,1 @@
+Invoking command in '/home/marceli/tb3_ws/src/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/marceli/tb3_ws/src/build/dynamixel_sdk_custom_interfaces -- -j4 -l4

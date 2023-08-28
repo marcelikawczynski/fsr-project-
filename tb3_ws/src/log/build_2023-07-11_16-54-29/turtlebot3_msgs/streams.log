@@ -1,0 +1,35 @@
+[0.070s] Invoking command in '/home/marceli/tb3_ws/src/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/marceli/tb3_ws/src/build/turtlebot3_msgs -- -j4 -l4
+[0.168s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_msgs__rosidl_generator_c[0m
+[0.186s] [  1%] Built target turtlebot3_msgs__cpp
+[0.198s] [  1%] Built target ament_cmake_python_symlink_turtlebot3_msgs
+[0.209s] [ 12%] Built target turtlebot3_msgs__rosidl_generator_c
+[0.218s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.229s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_msgs__rosidl_typesupport_cpp[0m
+[0.243s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.262s] [ 23%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp
+[0.272s] [ 35%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_cpp
+[0.277s] [ 46%] Built target turtlebot3_msgs__rosidl_typesupport_cpp
+[0.296s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.297s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_msgs__rosidl_typesupport_c[0m
+[0.301s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_msgs__rosidl_typesupport_introspection_c[0m
+[0.318s] [ 57%] Built target turtlebot3_msgs__rosidl_typesupport_c
+[0.333s] [ 69%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c
+[0.354s] [ 80%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c
+[0.397s] [ 80%] Built target turtlebot3_msgs
+[0.440s] [ 81%] Built target turtlebot3_msgs__py
+[0.449s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_msgs__rosidl_generator_py[0m
+[0.482s] [ 91%] Built target turtlebot3_msgs__rosidl_generator_py
+[0.505s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[0.512s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.521s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_msgs__rosidl_typesupport_c__pyext[0m
+[0.538s] [ 94%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.544s] [ 97%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext
+[0.557s] [100%] Built target turtlebot3_msgs__rosidl_typesupport_c__pyext
+[0.820s] running egg_info
+[0.821s] writing turtlebot3_msgs.egg-info/PKG-INFO
+[0.821s] writing dependency_links to turtlebot3_msgs.egg-info/dependency_links.txt
+[0.822s] writing top-level names to turtlebot3_msgs.egg-info/top_level.txt
+[0.828s] reading manifest file 'turtlebot3_msgs.egg-info/SOURCES.txt'
+[0.832s] writing manifest file 'turtlebot3_msgs.egg-info/SOURCES.txt'
+[0.882s] [100%] Built target ament_cmake_python_build_turtlebot3_msgs_egg
+[0.906s] Invoked command in '/home/marceli/tb3_ws/src/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/marceli/tb3_ws/src/build/turtlebot3_msgs -- -j4 -l4

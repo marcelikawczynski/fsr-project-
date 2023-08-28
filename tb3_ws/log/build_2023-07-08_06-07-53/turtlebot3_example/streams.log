@@ -1,0 +1,37 @@
+[2.877s] Invoking command in '/home/marceli/tb3_ws/build/turtlebot3_example': AMENT_PREFIX_PATH=/home/marceli/tb3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marceli/tb3_ws/install/turtlebot3_msgs LD_LIBRARY_PATH=/home/marceli/tb3_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marceli/tb3_ws/build/turtlebot3_example/prefix_override:/home/marceli/tb3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/marceli/tb3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/marceli/tb3_ws/build/turtlebot3_example/build --no-deps install_data
+[4.135s] running develop
+[4.137s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.138s]   warnings.warn(
+[4.140s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.140s]   warnings.warn(
+[4.388s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[4.388s]   warnings.warn(
+[4.390s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[4.391s]   warnings.warn(
+[4.392s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[4.393s]   warnings.warn(
+[4.888s] running egg_info
+[4.888s] creating turtlebot3_example.egg-info
+[4.888s] writing turtlebot3_example.egg-info/PKG-INFO
+[4.889s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[4.890s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[4.890s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[4.891s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[4.891s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[4.898s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[4.900s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[4.904s] running build_ext
+[4.905s] Creating /home/marceli/tb3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3-example.egg-link (link to .)
+[4.907s] Installing turtlebot3_obstacle_detection script to /home/marceli/tb3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[4.908s] Installing turtlebot3_patrol_client script to /home/marceli/tb3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[4.909s] Installing turtlebot3_patrol_server script to /home/marceli/tb3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[4.909s] Installing turtlebot3_position_control script to /home/marceli/tb3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[4.909s] 
+[4.909s] Installed /home/marceli/tb3_ws/build/turtlebot3_example
+[4.910s] running install_data
+[4.910s] creating /home/marceli/tb3_ws/install/turtlebot3_example/share/ament_index
+[4.914s] creating /home/marceli/tb3_ws/install/turtlebot3_example/share/ament_index/resource_index
+[4.915s] creating /home/marceli/tb3_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[4.915s] copying resource/turtlebot3_example -> /home/marceli/tb3_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[4.916s] copying package.xml -> /home/marceli/tb3_ws/install/turtlebot3_example/share/turtlebot3_example
+[5.053s] Invoked command in '/home/marceli/tb3_ws/build/turtlebot3_example' returned '0': AMENT_PREFIX_PATH=/home/marceli/tb3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marceli/tb3_ws/install/turtlebot3_msgs LD_LIBRARY_PATH=/home/marceli/tb3_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marceli/tb3_ws/build/turtlebot3_example/prefix_override:/home/marceli/tb3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/marceli/tb3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/marceli/tb3_ws/build/turtlebot3_example/build --no-deps install_data

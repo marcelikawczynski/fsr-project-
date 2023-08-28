@@ -1,0 +1,66 @@
+[0.116s] Invoking command in '/home/marceli/tb3_ws/build/hls_lfcd_lds_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/marceli/tb3_ws/src/utils/hls_lfcd_lds_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/marceli/tb3_ws/install/hls_lfcd_lds_driver
+[0.534s] -- The C compiler identification is GNU 11.3.0
+[0.937s] -- The CXX compiler identification is GNU 11.3.0
+[0.974s] -- Detecting C compiler ABI info
+[1.193s] -- Detecting C compiler ABI info - done
+[1.216s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.216s] -- Detecting C compile features
+[1.218s] -- Detecting C compile features - done
+[1.230s] -- Detecting CXX compiler ABI info
+[1.421s] -- Detecting CXX compiler ABI info - done
+[1.450s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.451s] -- Detecting CXX compile features
+[1.453s] -- Detecting CXX compile features - done
+[1.478s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.956s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.247s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.439s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[2.642s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.661s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.715s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.805s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.893s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.216s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.241s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[3.541s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.627s] -- Looking for pthread.h
+[4.116s] -- Looking for pthread.h - found
+[4.117s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.603s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.604s] -- Found Threads: TRUE  
+[5.658s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.146s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system 
+[6.409s] -- Configuring done
+[6.446s] -- Generating done
+[6.449s] -- Build files have been written to: /home/marceli/tb3_ws/build/hls_lfcd_lds_driver
+[6.471s] Invoked command in '/home/marceli/tb3_ws/build/hls_lfcd_lds_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/marceli/tb3_ws/src/utils/hls_lfcd_lds_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/marceli/tb3_ws/install/hls_lfcd_lds_driver
+[6.474s] Invoking command in '/home/marceli/tb3_ws/build/hls_lfcd_lds_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/marceli/tb3_ws/build/hls_lfcd_lds_driver -- -j4 -l4
+[6.611s] [ 50%] [32mBuilding CXX object CMakeFiles/hlds_laser_publisher.dir/src/hlds_laser_publisher.cpp.o[0m
+[46.903s] [100%] [32m[1mLinking CXX executable hlds_laser_publisher[0m
+[48.299s] [100%] Built target hlds_laser_publisher
+[48.376s] Invoked command in '/home/marceli/tb3_ws/build/hls_lfcd_lds_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/marceli/tb3_ws/build/hls_lfcd_lds_driver -- -j4 -l4
+[48.546s] Invoking command in '/home/marceli/tb3_ws/build/hls_lfcd_lds_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/marceli/tb3_ws/build/hls_lfcd_lds_driver
+[48.570s] -- Install configuration: ""
+[48.571s] -- Execute custom install script
+[48.574s] -- Symlinking: /home/marceli/tb3_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/launch/hlds_laser.launch.py
+[48.638s] -- Symlinking: /home/marceli/tb3_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/launch/view_hlds_laser.launch.py
+[48.693s] -- Symlinking: /home/marceli/tb3_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/rviz/hlds_laser.rviz
+[48.744s] -- Symlinking: /home/marceli/tb3_ws/install/hls_lfcd_lds_driver/lib/hls_lfcd_lds_driver/hlds_laser_publisher
+[48.805s] -- Symlinking: /home/marceli/tb3_ws/install/hls_lfcd_lds_driver/share/ament_index/resource_index/package_run_dependencies/hls_lfcd_lds_driver
+[48.860s] -- Symlinking: /home/marceli/tb3_ws/install/hls_lfcd_lds_driver/share/ament_index/resource_index/parent_prefix_path/hls_lfcd_lds_driver
+[48.893s] -- Symlinking: /home/marceli/tb3_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/ament_prefix_path.sh
+[48.927s] -- Symlinking: /home/marceli/tb3_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/ament_prefix_path.dsv
+[48.955s] -- Symlinking: /home/marceli/tb3_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/path.sh
+[48.983s] -- Symlinking: /home/marceli/tb3_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/path.dsv
+[49.007s] -- Symlinking: /home/marceli/tb3_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.bash
+[49.034s] -- Symlinking: /home/marceli/tb3_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.sh
+[49.062s] -- Symlinking: /home/marceli/tb3_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.zsh
+[49.090s] -- Symlinking: /home/marceli/tb3_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.dsv
+[49.125s] -- Symlinking: /home/marceli/tb3_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/package.dsv
+[49.153s] -- Symlinking: /home/marceli/tb3_ws/install/hls_lfcd_lds_driver/share/ament_index/resource_index/packages/hls_lfcd_lds_driver
+[49.183s] -- Symlinking: /home/marceli/tb3_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[49.225s] -- Symlinking: /home/marceli/tb3_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[49.254s] -- Symlinking: /home/marceli/tb3_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/hls_lfcd_lds_driverConfig.cmake
+[49.279s] -- Symlinking: /home/marceli/tb3_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/hls_lfcd_lds_driverConfig-version.cmake
+[49.301s] -- Symlinking: /home/marceli/tb3_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/package.xml
+[49.342s] Invoked command in '/home/marceli/tb3_ws/build/hls_lfcd_lds_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/marceli/tb3_ws/build/hls_lfcd_lds_driver

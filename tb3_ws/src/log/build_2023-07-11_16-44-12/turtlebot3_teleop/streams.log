@@ -1,0 +1,34 @@
+[2.301s] Invoking command in '/home/marceli/tb3_ws/src/build/turtlebot3_teleop': PYTHONPATH=/home/marceli/tb3_ws/src/build/turtlebot3_teleop/prefix_override:/home/marceli/tb3_ws/src/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/marceli/tb3_ws/src/build/turtlebot3_teleop/build --no-deps install_data
+[3.095s] running develop
+[3.098s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.098s]   warnings.warn(
+[3.104s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.104s]   warnings.warn(
+[3.328s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[3.328s]   warnings.warn(
+[3.329s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[3.329s]   warnings.warn(
+[3.330s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[3.330s]   warnings.warn(
+[3.658s] running egg_info
+[3.658s] creating turtlebot3_teleop.egg-info
+[3.658s] writing turtlebot3_teleop.egg-info/PKG-INFO
+[3.658s] writing dependency_links to turtlebot3_teleop.egg-info/dependency_links.txt
+[3.659s] writing entry points to turtlebot3_teleop.egg-info/entry_points.txt
+[3.659s] writing requirements to turtlebot3_teleop.egg-info/requires.txt
+[3.659s] writing top-level names to turtlebot3_teleop.egg-info/top_level.txt
+[3.659s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[3.662s] reading manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[3.663s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[3.665s] running build_ext
+[3.666s] Creating /home/marceli/tb3_ws/src/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3-teleop.egg-link (link to .)
+[3.668s] Installing teleop_keyboard script to /home/marceli/tb3_ws/src/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[3.668s] 
+[3.668s] Installed /home/marceli/tb3_ws/src/build/turtlebot3_teleop
+[3.669s] running install_data
+[3.669s] creating /home/marceli/tb3_ws/src/install/turtlebot3_teleop/share/ament_index
+[3.669s] creating /home/marceli/tb3_ws/src/install/turtlebot3_teleop/share/ament_index/resource_index
+[3.669s] creating /home/marceli/tb3_ws/src/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[3.670s] copying resource/turtlebot3_teleop -> /home/marceli/tb3_ws/src/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[3.670s] copying package.xml -> /home/marceli/tb3_ws/src/install/turtlebot3_teleop/share/turtlebot3_teleop
+[3.745s] Invoked command in '/home/marceli/tb3_ws/src/build/turtlebot3_teleop' returned '0': PYTHONPATH=/home/marceli/tb3_ws/src/build/turtlebot3_teleop/prefix_override:/home/marceli/tb3_ws/src/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/marceli/tb3_ws/src/build/turtlebot3_teleop/build --no-deps install_data
